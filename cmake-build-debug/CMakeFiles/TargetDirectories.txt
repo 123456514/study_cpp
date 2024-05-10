@@ -1,3 +1,2 @@
-D:/code/c++/demo1/cmake-build-debug/CMakeFiles/demo1.dir
 D:/code/c++/demo1/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/code/c++/demo1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
