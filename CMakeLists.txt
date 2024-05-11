@@ -7,6 +7,8 @@ set(CMAKE_CXX_STANDARD 17)
 foreach (file ${files})
     string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
     add_executable (${exe} ${file}
-            link_list.cpp)
+            link_list.cpp
+            2023_DS.cpp
+            cmake-build-debug/2022_DS.cpp)
     message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
 endforeach ()
