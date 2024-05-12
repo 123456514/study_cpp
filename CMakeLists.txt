@@ -9,6 +9,11 @@ foreach (file ${files})
     add_executable (${exe} ${file}
             link_list.cpp
             2023_DS.cpp
-            cmake-build-debug/2022_DS.cpp)
+            cmake-build-debug/2022_DS.cpp
+            2021_DS.cpp
+            2020_DS.cpp
+            2020_DS.cpp
+            2020_DS.cpp
+            西邮数据结构参考数据代码题/linkList.cpp)
     message (\ \ \ \ --\ src/${exe}.cpp\ will\ be\ compiled\ to\ bin/${exe})
 endforeach ()
